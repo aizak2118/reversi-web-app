@@ -46,4 +46,5 @@ create table game_results (
   foreign key (game_id) references games (id)
 );
 
-select "ok" as result;
+select
+  "ok" as result;

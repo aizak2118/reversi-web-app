@@ -1,0 +1,14 @@
+{
+  "plugins": ["prettier-plugin-sql"],
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "options": {
+        "sqlKeywordCase": "upper",
+        "sqlIdentifierCase": "lower",
+        "parser": "typescript",
+        "embeddedLanguageFormatting": "auto"
+      }
+    }
+  ]
+}
